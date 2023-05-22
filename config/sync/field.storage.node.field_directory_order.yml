@@ -1,0 +1,30 @@
+uuid: db06e996-e2c3-42f1-bfe5-0ae0c4101f7e
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_directory_order
+field_name: field_directory_order
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: avp
+      label: AVP
+    -
+      value: mgr
+      label: Manager
+    -
+      value: staff
+      label: Staff
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

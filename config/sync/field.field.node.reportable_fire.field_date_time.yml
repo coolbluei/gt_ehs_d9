@@ -1,0 +1,21 @@
+uuid: cb1b2a99-f2f1-42fc-a46d-025a68423ac7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_time
+    - node.type.reportable_fire
+  module:
+    - datetime
+id: node.reportable_fire.field_date_time
+field_name: field_date_time
+entity_type: node
+bundle: reportable_fire
+label: 'Date & Time'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,21 @@
+uuid: 26c5a2db-691f-4752-8408-89e2e405aed4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_event
+label: 'Content - Event'
+type: 'canonical_entities:node'
+pattern: 'calendar/day/[node:field-event-time:0:value:custom:Y]/[node:field-event-time:0:value:custom:m]/[node:field-event-time:0:value:custom:d]/[node:nid]'
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      event: event
+selection_logic: and
+weight: 0
+relationships: {  }

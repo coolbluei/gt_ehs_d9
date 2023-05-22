@@ -1,0 +1,32 @@
+uuid: 0ff7f76f-4627-4adc-9ff6-969fe9d23a6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_building_all
+    - node.type.asbestos_sample
+id: node.asbestos_sample.field_building_all
+field_name: field_building_all
+entity_type: node
+bundle: asbestos_sample
+label: Building
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    view:
+      view_name: buildings_all
+      display_name: entityreference_1
+      args: {  }
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

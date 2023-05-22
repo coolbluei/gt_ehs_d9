@@ -1,0 +1,21 @@
+uuid: 211bec61-a7f2-4deb-bcda-c735ac779ad9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cell_phone_number1
+    - node.type.person
+  module:
+    - telephone
+id: node.person.field_cell_phone_number1
+field_name: field_cell_phone_number1
+entity_type: node
+bundle: person
+label: 'Cell Phone Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

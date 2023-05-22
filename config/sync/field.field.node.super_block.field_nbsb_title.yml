@@ -1,0 +1,19 @@
+uuid: 66679c59-8e38-4799-a8c8-2e7f3f05280d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nbsb_title
+    - node.type.super_block
+id: node.super_block.field_nbsb_title
+field_name: field_nbsb_title
+entity_type: node
+bundle: super_block
+label: Title
+description: 'Provide a title for the super block that visitors can read.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,9 @@
+uuid: 7edcadeb-58a3-45bf-bdce-60939a940e23
+langcode: en
+status: true
+dependencies: {  }
+id: building_manager
+label: 'Building Manager'
+weight: 9
+is_admin: null
+permissions: {  }

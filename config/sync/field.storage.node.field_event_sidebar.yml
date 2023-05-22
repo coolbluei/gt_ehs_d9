@@ -1,0 +1,19 @@
+uuid: 1f98086a-7909-482d-9abd-37397e67a1a6
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_event_sidebar
+field_name: field_event_sidebar
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

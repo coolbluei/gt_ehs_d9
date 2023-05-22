@@ -1,0 +1,8 @@
+uuid: d533bf8b-5956-4939-82d6-a5796c2763fd
+langcode: en
+status: true
+dependencies: {  }
+name: 'Fire Inspection Types'
+vid: fire_inspection_types
+description: 'Fire Safety Inspection Types'
+weight: 0

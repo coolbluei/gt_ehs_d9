@@ -1,0 +1,14 @@
+uuid: 9c78685e-1b15-4a72-b4c3-27f03ae20a91
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ehs_staff
+  module:
+    - user
+id: user_remove_role_action.ehs_staff
+label: 'Remove the EHS Staff role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ehs_staff

@@ -1,0 +1,21 @@
+uuid: 9774bf5b-5431-4fbe-9717-816f54c445d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_battery_date
+    - node.type.aed
+  module:
+    - datetime
+id: node.aed.field_battery_date
+field_name: field_battery_date
+entity_type: node
+bundle: aed
+label: 'Battery Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

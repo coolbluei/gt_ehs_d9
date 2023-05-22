@@ -1,0 +1,18 @@
+uuid: d59cdf74-efa5-4f92-883e-be8cddd812c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.gt_ct_carousel
+id: node.gt_ct_carousel.title
+field_name: title
+entity_type: node
+bundle: gt_ct_carousel
+label: 'Carousel Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

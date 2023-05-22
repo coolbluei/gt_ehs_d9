@@ -1,0 +1,14 @@
+uuid: cfa030b2-7a5d-4436-9309-f64dc90a78db
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.aed_inspector
+  module:
+    - user
+id: user_add_role_action.aed_inspector
+label: 'Add the AED Inspector role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: aed_inspector

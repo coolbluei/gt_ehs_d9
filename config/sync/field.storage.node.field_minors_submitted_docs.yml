@@ -1,0 +1,23 @@
+uuid: 0e54b686-a139-44b8-bd8f-98882d11ef9b
+langcode: und
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_minors_submitted_docs
+field_name: field_minors_submitted_docs
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: true
+  display_default: true
+  uri_scheme: private
+module: file
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

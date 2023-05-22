@@ -1,0 +1,16 @@
+uuid: b130b389-b837-482a-bf8f-82637327a6ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: Carousel
+type: gt_ct_carousel
+description: 'A rotating carousel that uses the Carousel Slide content type.'
+help: 'Provide the carousel slides that this carousel uses, and order them in the way that you want them to appear (order goes from the top of the list to the bottom.) '
+new_revision: false
+preview_mode: 1
+display_submitted: false

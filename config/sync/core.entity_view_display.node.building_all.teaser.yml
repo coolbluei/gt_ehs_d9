@@ -1,0 +1,38 @@
+uuid: 249928ef-6c1b-4ac5-8c56-56023f66b23b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.building_all.body
+    - field.field.node.building_all.field_bldg_address
+    - field.field.node.building_all.field_bldg_name
+    - field.field.node.building_all.field_bldg_number
+    - field.field.node.building_all.field_current_building
+    - node.type.building_all
+  module:
+    - text
+    - user
+id: node.building_all.teaser
+targetEntityType: node
+bundle: building_all
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_bldg_address: true
+  field_bldg_name: true
+  field_bldg_number: true
+  field_current_building: true

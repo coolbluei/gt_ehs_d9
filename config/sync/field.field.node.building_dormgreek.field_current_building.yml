@@ -1,0 +1,23 @@
+uuid: 940cbb3f-b1b4-4b6c-8054-7c90185adaea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_current_building
+    - node.type.building_dormgreek
+id: node.building_dormgreek.field_current_building
+field_name: field_current_building
+entity_type: node
+bundle: building_dormgreek
+label: 'Current Building?'
+description: 'Is this building a current GT building?'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean
