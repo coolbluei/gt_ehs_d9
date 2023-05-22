@@ -1,0 +1,39 @@
+node_search:
+  path: node
+  search: true
+  advanced:
+    visibility: true
+    collapsible: true
+    collapsed: true
+    criteria:
+      or: or
+      phrase: phrase
+      negative: negative
+    types:
+      article: article
+      hg_boilerplate: hg_boilerplate
+      hg_event: hg_event
+      hg_external_news: hg_external_news
+      hg_image: hg_image
+      hg_news: hg_news
+      hg_profile: hg_profile
+      hg_video: hg_video
+      page: page
+      webform: webform
+    languages:
+      en: en
+      und: und
+      zxx: zxx
+  info:
+    type: type
+    user: user
+    date: date
+    comment: comment
+  filter:
+    position: disabled
+    label: 'Filter the results'
+    any: '- Any -'
+user_search:
+  advanced:
+    types:
+      webform: webform
