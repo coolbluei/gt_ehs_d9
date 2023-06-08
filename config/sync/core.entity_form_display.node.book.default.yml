@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.book.body
+    - field.field.node.book.field_permissions
     - node.type.book
   module:
     - path
@@ -28,6 +29,12 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_permissions:
+    type: options_buttons
+    weight: 32
     region: content
     settings: {  }
     third_party_settings: {  }

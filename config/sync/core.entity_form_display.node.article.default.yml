@@ -4,7 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.node.article.body
+    - field.field.node.article.field_ehs_office_main_only
     - field.field.node.article.field_image
+    - field.field.node.article.field_newsletter_issue
     - field.field.node.article.field_tags
     - image.style.thumbnail
     - node.type.article
@@ -34,6 +36,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_ehs_office_main_only:
+    type: options_buttons
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_image:
     type: image_image
     weight: 4
@@ -41,6 +49,12 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_newsletter_issue:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete_tags
@@ -59,24 +73,24 @@ content:
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 15
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 120
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 16
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
