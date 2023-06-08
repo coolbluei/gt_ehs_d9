@@ -1,4 +1,4 @@
-uuid: 1c42d4ef-780c-4814-a334-9e3ec1af16d7
+uuid: 13ce0815-23f9-4dbe-8b4e-260f789233e1
 langcode: en
 status: true
 dependencies: {  }
@@ -130,7 +130,6 @@ migration_dependencies:
     - upgrade_d7_node_complete_gt_ct_carousel
     - upgrade_d7_node_complete_gt_ct_carousel_slide
     - upgrade_d7_node_complete_horizontal_landing_page
-    - upgrade_d7_node_complete_mercury_events
     - upgrade_d7_node_complete_minors_program
     - upgrade_d7_node_complete_multipurpose_page
     - upgrade_d7_node_complete_node_gallery_gallery

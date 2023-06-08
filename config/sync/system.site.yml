@@ -1,14 +1,14 @@
 _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
-uuid: 6e5990b9-5f85-4816-ada7-24aa829ef1e0
-name: 'Environmental Health & Safety'
-mail: christina.tabor@ehs.gatech.edu
+uuid: beda5c1f-a015-41a7-ab7f-f2ba29530470
+name: 'EHS Drupal 9'
+mail: techteam@coolbluei.com
 slogan: ''
 page:
-  403: /node/3
-  404: /node/4
-  front: /node/1
+  403: ''
+  404: ''
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

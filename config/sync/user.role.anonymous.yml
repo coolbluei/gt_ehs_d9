@@ -1,39 +1,23 @@
-uuid: decb74e8-ada9-4519-9857-79f40da7dc83
+uuid: 69b94f45-f771-4ffc-8d87-fb67cf7afc92
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.restricted_html
   module:
-    - search
+    - contact
+    - filter
+    - media
     - system
 _core:
   default_config_hash: Y293BbVeaJOUT9hKaiI9gGSueqhICyopKxfk184gt4U
 id: anonymous
-label: 'anonymous user'
+label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
   - 'access content'
-  - 'diff view changes'
+  - 'access site-wide contact form'
   - 'search content'
-  - 'view field_event_attachment_url'
-  - 'view field_event_audience'
-  - 'view field_event_body'
-  - 'view field_event_boilerplate'
-  - 'view field_event_category'
-  - 'view field_event_contact'
-  - 'view field_event_extra'
-  - 'view field_event_fee'
-  - 'view field_event_group'
-  - 'view field_event_group_primary'
-  - 'view field_event_image'
-  - 'view field_event_keyword'
-  - 'view field_event_location'
-  - 'view field_event_location_email'
-  - 'view field_event_location_phone'
-  - 'view field_event_location_url'
-  - 'view field_event_sidebar'
-  - 'view field_event_summary'
-  - 'view field_event_summary_sentence'
-  - 'view field_event_time'
-  - 'view field_event_url_related'
-  - 'view files'
+  - 'use text format restricted_html'
+  - 'view media'

@@ -27,6 +27,8 @@ $settings['file_scan_ignore_directories'] = [
 // local development.
 // $settings['hash_salt'] = 'change_me';
 
+
+
 // Set up a config sync directory.
 //
 // This is defined inside the read-only "config" directory, deployed via Git.

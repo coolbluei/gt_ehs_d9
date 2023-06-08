@@ -1,4 +1,4 @@
-uuid: 13155b13-572a-40ff-9470-c2caa7f1bc65
+uuid: 6179aca8-fb09-4538-bf16-301eef21f68d
 langcode: en
 status: false
 dependencies:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: yvQwf6XlDzhz8wToNb2HHITwlFQvbC7gWNge49uheS4
 id: user.full
-label: Full
+label: 'User account'
 targetEntityType: user
 cache: true

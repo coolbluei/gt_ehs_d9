@@ -1,8 +1,0 @@
-uuid: 7fac9381-f56e-49f8-a1b6-9cacac42f132
-langcode: en
-status: true
-dependencies: {  }
-name: 'Event Keyword'
-vid: event_keyword
-description: ''
-weight: 0

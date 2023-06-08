@@ -5,9 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
-    - field.field.node.article.field_ehs_office_main_only
     - field.field.node.article.field_image
-    - field.field.node.article.field_newsletter_issue
     - field.field.node.article.field_tags
     - image.style.medium
     - node.type.article
@@ -24,35 +22,33 @@ mode: teaser
 content:
   body:
     type: text_summary_or_trimmed
-    label: hidden
+    weight: 0
+    region: content
     settings:
       trim_length: 600
     third_party_settings: {  }
-    weight: 0
-    region: content
+    label: hidden
   field_image:
     type: image
-    label: hidden
+    weight: -1
+    region: content
     settings:
-      image_link: content
       image_style: medium
+      image_link: content
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: -1
-    region: content
+    label: hidden
   field_tags:
     type: entity_reference_label
-    label: above
+    weight: 10
+    region: content
     settings:
       link: true
     third_party_settings: {  }
-    weight: 10
-    region: content
+    label: above
   links:
     weight: 100
     region: content
 hidden:
-  field_ehs_office_main_only: true
-  field_newsletter_issue: true
   field_tags: true

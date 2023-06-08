@@ -1,8 +1,0 @@
-uuid: c186ad5f-9dc2-48f9-98a5-eb7a6f9795b3
-langcode: en
-status: true
-dependencies: {  }
-name: 'Event Extra'
-vid: event_extra
-description: ''
-weight: 0

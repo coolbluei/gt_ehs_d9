@@ -1,8 +1,0 @@
-uuid: ff806b35-bf41-4746-9919-4a9b10ba30a1
-langcode: en
-status: true
-dependencies: {  }
-name: 'Event Category'
-vid: event_category
-description: ''
-weight: 0

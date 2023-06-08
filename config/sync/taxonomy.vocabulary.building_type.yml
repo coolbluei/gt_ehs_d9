@@ -1,8 +1,0 @@
-uuid: 2646872a-37fd-4beb-9d86-e7b8ad15ac4c
-langcode: en
-status: true
-dependencies: {  }
-name: 'Building Type'
-vid: building_type
-description: 'For fire safety reportable fire purposes'
-weight: 0

@@ -35,4 +35,7 @@
 *.mysql.gz
 db/
 
-web/legacy
+web/legacy/
+web/private/
+private/
+private:/

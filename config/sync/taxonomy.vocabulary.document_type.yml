@@ -1,8 +1,0 @@
-uuid: ed197986-8571-4bb0-bb4a-07a52e21f8ce
-langcode: en
-status: true
-dependencies: {  }
-name: 'Document Type'
-vid: document_type
-description: ''
-weight: 0

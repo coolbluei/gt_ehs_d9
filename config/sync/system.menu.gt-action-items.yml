@@ -1,8 +1,0 @@
-uuid: 4e1e9755-23b8-4904-b8e2-fc80b7086b15
-langcode: en
-status: true
-dependencies: {  }
-id: gt-action-items
-label: 'GT action items'
-description: 'Up to 3 links adjacent to the top menu; <em>E.g.</em> "Apply," "Contact," or "Give."'
-locked: false
