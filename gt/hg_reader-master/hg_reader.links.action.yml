@@ -1,5 +1,0 @@
-entity.hg_reader_importer.add:
-  route_name: entity.hg_reader_importer.add
-  title: 'Add an importer'
-  appears_on:
-    - entity.hg_reader_importer.collection

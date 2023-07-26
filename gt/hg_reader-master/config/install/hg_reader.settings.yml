@@ -1,3 +1,0 @@
-hg_url: 'hg.gatech.edu'
-hg_curl_timeout: 10
-hg_text_format: 'limited_html'
