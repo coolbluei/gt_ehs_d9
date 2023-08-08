@@ -8,7 +8,14 @@ dependencies:
     - filter.format.text_editor_basic
     - filter.format.unfiltered_html
     - node.type.article
+    - node.type.event
+    - node.type.gt_calendar_feed
+    - node.type.horizontal_landing_page
+    - node.type.multipurpose_page
     - node.type.page
+    - node.type.person
+    - node.type.super_block
+    - node.type.vertical_landing_page
     - node.type.webform
   module:
     - block
@@ -28,14 +35,9 @@ label: Administrator
 weight: 4
 is_admin: true
 permissions:
-  - 'access administration menu'
   - 'access administration pages'
-  - 'access all webform results'
   - 'access content overview'
   - 'access contextual links'
-  - 'access library reports'
-  - 'access own webform results'
-  - 'access own webform submissions'
   - 'access site in maintenance mode'
   - 'access site reports'
   - 'access user profiles'
@@ -43,14 +45,11 @@ permissions:
   - 'administer blocks'
   - 'administer book outlines'
   - 'administer content types'
-  - 'administer fields'
   - 'administer menu'
   - 'administer nodes'
   - 'administer taxonomy'
   - 'administer views'
   - 'bypass node access'
-  - 'clear gt_calendar_importer feeds'
-  - 'convert to super_block'
   - 'create article content'
   - 'create event content'
   - 'create gt_calendar_feed content'
@@ -62,7 +61,6 @@ permissions:
   - 'create url aliases'
   - 'create vertical_landing_page content'
   - 'create webform content'
-  - 'delete all webform submissions'
   - 'delete any event content'
   - 'delete any gt_calendar_feed content'
   - 'delete any horizontal_landing_page content'
@@ -71,15 +69,6 @@ permissions:
   - 'delete any super_block content'
   - 'delete any vertical_landing_page content'
   - 'delete any webform content'
-  - 'delete own webform submissions'
-  - 'delete revisions'
-  - 'delete terms in 3'
-  - 'delete terms in 4'
-  - 'delete terms in 5'
-  - 'delete terms in 6'
-  - 'delete terms in 7'
-  - 'display drupal links'
-  - 'edit all webform submissions'
   - 'edit any article content'
   - 'edit any gt_calendar_feed content'
   - 'edit any horizontal_landing_page content'
@@ -89,34 +78,9 @@ permissions:
   - 'edit any super_block content'
   - 'edit any vertical_landing_page content'
   - 'edit any webform content'
-  - 'edit own webform submissions'
-  - 'edit revisions'
-  - 'edit terms in 1'
-  - 'edit terms in 3'
-  - 'edit terms in 4'
-  - 'edit terms in 5'
-  - 'edit terms in 6'
-  - 'edit terms in 7'
-  - 'edit webform components'
-  - 'flush caches'
-  - 'import gt_calendar_importer feeds'
-  - 'maintain nodeblock'
-  - 'publish revisions'
-  - 'publish revisions of any page content'
-  - 'revert revisions'
   - 'search content'
-  - 'unlock gt_calendar_importer feeds'
-  - 'unpublish current revision'
   - 'use text format minimal_html'
   - 'use text format text_editor_advanced'
   - 'use text format text_editor_basic'
   - 'use text format unfiltered_html'
-  - 'view advanced help index'
-  - 'view advanced help popup'
-  - 'view advanced help topic'
-  - 'view field_event_nodeid'
-  - 'view files'
   - 'view own unpublished content'
-  - 'view revision status messages'
-  - 'view revisions'
-  - 'view revisions of any page content'

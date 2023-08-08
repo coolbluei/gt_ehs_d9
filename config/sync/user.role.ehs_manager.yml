@@ -4,23 +4,19 @@ status: true
 dependencies:
   config:
     - node.type.article
+    - node.type.reportable_fire
   module:
+    - file
     - node
 id: ehs_manager
 label: 'EHS Manager'
 weight: 7
 is_admin: null
 permissions:
-  - 'access all webform results'
   - 'create article content'
   - 'create reportable_fire content'
-  - 'delete any entityform'
-  - 'delete own entityform'
+  - 'delete own files'
   - 'delete own reportable_fire content'
   - 'edit any article content'
-  - 'edit any entityform'
   - 'edit any reportable_fire content'
-  - 'edit own entityform'
   - 'edit own reportable_fire content'
-  - 'view any entityform'
-  - 'view own entityform'

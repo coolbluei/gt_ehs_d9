@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 id: gt-social-media
 label: 'GT social media links'
-description: 'Links to your site''s social media properties.'
+description: "Links to your site's social media properties."
 locked: false

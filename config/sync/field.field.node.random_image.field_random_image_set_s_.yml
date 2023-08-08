@@ -11,7 +11,7 @@ field_name: field_random_image_set_s_
 entity_type: node
 bundle: random_image
 label: 'Random Image Set(s)'
-description: 'Select any Random Image sets where this image should appear. Don''t select anything if you aren''t sure yet or don''t want it "published" anymore.'
+description: "Select any Random Image sets where this image should appear. Don't select anything if you aren't sure yet or don't want it \"published\" anymore."
 required: true
 translatable: false
 default_value: {  }

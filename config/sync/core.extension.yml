@@ -12,7 +12,6 @@ module:
   breakpoint: 0
   cas: 0
   ckeditor: 0
-  collapse_text: 0
   comment: 0
   conditional_fields: 0
   config: 0
@@ -65,13 +64,13 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  phpass: 0
   quickedit: 0
   rabbit_hole: 0
   rdf: 0
   rh_node: 0
   search: 0
   shortcut: 0
-  simple_image_rotate: 0
   social_media_links: 0
   system: 0
   taxonomy: 0
@@ -93,6 +92,7 @@ module:
   views_flipped_table: 0
   views_ui: 0
   webform: 0
+  webform_location_places: 0
   webform_node: 0
   webform_templates: 0
   webform_ui: 0

@@ -12,7 +12,7 @@ server:
   verify: 0
   cert: ''
 gateway:
-  enabled: true
+  enabled: false
   recheck_time: 720
   paths:
     id: request_path
@@ -56,4 +56,3 @@ proxy:
 advanced:
   debug_log: false
   connection_timeout: 10
-

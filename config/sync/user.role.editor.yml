@@ -7,10 +7,19 @@ dependencies:
     - filter.format.text_editor_advanced
     - filter.format.text_editor_basic
     - node.type.book
+    - node.type.document
+    - node.type.document_linked
+    - node.type.horizontal_landing_page
+    - node.type.multipurpose_page
     - node.type.page
+    - node.type.question
+    - node.type.super_block
+    - node.type.vertical_landing_page
   module:
     - block
+    - block_content
     - contextual
+    - file
     - filter
     - node
     - search
@@ -22,13 +31,14 @@ label: Editor
 weight: 3
 is_admin: null
 permissions:
-  - 'access administration menu'
   - 'access administration pages'
+  - 'access block library'
   - 'access content overview'
   - 'access contextual links'
   - 'access site in maintenance mode'
+  - 'administer block content'
+  - 'administer block types'
   - 'administer blocks'
-  - 'clone node'
   - 'create document content'
   - 'create document_linked content'
   - 'create horizontal_landing_page content'
@@ -46,6 +56,7 @@ permissions:
   - 'delete any question content'
   - 'delete any super_block content'
   - 'delete any vertical_landing_page content'
+  - 'delete own files'
   - 'edit any book content'
   - 'edit any document content'
   - 'edit any document_linked content'
@@ -55,11 +66,8 @@ permissions:
   - 'edit any question content'
   - 'edit any super_block content'
   - 'edit any vertical_landing_page content'
-  - 'revert revisions'
   - 'search content'
   - 'use text format minimal_html'
   - 'use text format text_editor_advanced'
   - 'use text format text_editor_basic'
-  - 'view files'
   - 'view own unpublished content'
-  - 'view revisions'

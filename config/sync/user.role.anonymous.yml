@@ -2,7 +2,15 @@ uuid: 69b94f45-f771-4ffc-8d87-fb67cf7afc92
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.minimal_html
+    - filter.format.text_editor_advanced
+    - filter.format.text_editor_basic
+    - filter.format.unfiltered_html
   module:
+    - filter
     - search
     - system
 _core:
@@ -13,27 +21,10 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
-  - 'diff view changes'
   - 'search content'
-  - 'view field_event_attachment_url'
-  - 'view field_event_audience'
-  - 'view field_event_body'
-  - 'view field_event_boilerplate'
-  - 'view field_event_category'
-  - 'view field_event_contact'
-  - 'view field_event_extra'
-  - 'view field_event_fee'
-  - 'view field_event_group'
-  - 'view field_event_group_primary'
-  - 'view field_event_image'
-  - 'view field_event_keyword'
-  - 'view field_event_location'
-  - 'view field_event_location_email'
-  - 'view field_event_location_phone'
-  - 'view field_event_location_url'
-  - 'view field_event_sidebar'
-  - 'view field_event_summary'
-  - 'view field_event_summary_sentence'
-  - 'view field_event_time'
-  - 'view field_event_url_related'
-  - 'view files'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format minimal_html'
+  - 'use text format text_editor_advanced'
+  - 'use text format text_editor_basic'
+  - 'use text format unfiltered_html'

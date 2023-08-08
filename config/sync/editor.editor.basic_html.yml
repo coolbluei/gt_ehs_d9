@@ -42,12 +42,18 @@ settings:
           name: Tools
           items:
             - Source
-  plugins: {  }
+            - Styles
+  plugins:
+    drupallink:
+      linkit_enabled: false
+      linkit_profile: ''
+    stylescombo:
+      styles: "element.btn.btn-primary|Gold Button\r\nelement.btn.btn-secondary|Grey Button\r\np.lead|Lead\r\np.ml-5|Indent"
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

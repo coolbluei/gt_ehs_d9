@@ -12,7 +12,7 @@ field_name: field_gtct_cs_bg_image
 entity_type: node
 bundle: gt_ct_carousel_slide
 label: 'Background Image'
-description: 'If required, provide a background image for this slide. Optimum dimensions are ~2000px wide by ~750px tall, but make sure it''s optimized to be the smallest file size.'
+description: "If required, provide a background image for this slide. Optimum dimensions are ~2000px wide by ~750px tall, but make sure it's optimized to be the smallest file size."
 required: false
 translatable: false
 default_value: {  }

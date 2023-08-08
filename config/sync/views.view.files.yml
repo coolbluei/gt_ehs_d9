@@ -5,6 +5,7 @@ dependencies:
   module:
     - file
     - user
+    - views_autocomplete_filters
 _core:
   default_config_hash: THmIfYKWeml2MvHmzfKFv_w01sQ8so0MxaxbZ-EnebM
 id: files
@@ -455,6 +456,15 @@ display:
             date_format: medium
             custom_date_format: ''
             timezone: ''
+            tooltip:
+              date_format: ''
+              custom_date_format: ''
+            time_diff:
+              enabled: false
+              future_format: '@interval hence'
+              past_format: '@interval ago'
+              granularity: 2
+              refresh: 60
           plugin_id: field
           entity_type: file
           entity_field: created
@@ -511,6 +521,15 @@ display:
             date_format: medium
             custom_date_format: ''
             timezone: ''
+            tooltip:
+              date_format: ''
+              custom_date_format: ''
+            time_diff:
+              enabled: false
+              future_format: '@interval hence'
+              past_format: '@interval ago'
+              granularity: 2
+              refresh: 60
           plugin_id: field
           entity_type: file
           entity_field: changed
