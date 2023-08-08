@@ -1,0 +1,6 @@
+book:
+  version: VERSION
+  css:
+    theme:
+      css/book.css:
+        weight: -10
