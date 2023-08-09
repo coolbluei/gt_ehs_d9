@@ -1,4 +1,4 @@
-uuid: 23cb5e7d-2a70-4f68-ab72-bce6ded86893
+uuid: 228e924a-505c-4bef-ba47-01a244bd1759
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,7 @@ dependencies:
     - node.type.article
     - node.type.reportable_fire
   module:
+    - file
     - node
 id: ehs_manager
 label: 'EHS Manager'
@@ -14,6 +15,7 @@ is_admin: null
 permissions:
   - 'create article content'
   - 'create reportable_fire content'
+  - 'delete own files'
   - 'delete own reportable_fire content'
   - 'edit any article content'
   - 'edit any reportable_fire content'

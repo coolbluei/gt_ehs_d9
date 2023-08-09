@@ -1,4 +1,4 @@
-uuid: a1c01ded-d595-4908-9bd6-01f93be25c8b
+uuid: 7217db27-68c8-4e5a-8cf1-f70decf89527
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 id: node
 label: 'Content - default'
 type: 'canonical_entities:node'
-pattern: '[node:title]'
+pattern: 'content/[node:title]'
 selection_criteria: {  }
 selection_logic: and
 weight: 0

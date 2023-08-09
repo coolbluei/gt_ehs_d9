@@ -1,9 +1,12 @@
-uuid: fb5aab35-bc1d-4145-8a60-6a4a808ec484
+uuid: d9c7ecc8-e143-498d-abc7-a2a17cffe935
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - file
 id: aed_inspector
 label: 'AED Inspector'
 weight: 8
 is_admin: null
-permissions: {  }
+permissions:
+  - 'delete own files'

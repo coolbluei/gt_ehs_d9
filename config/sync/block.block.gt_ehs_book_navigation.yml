@@ -1,29 +1,21 @@
-uuid: e32f4143-acfb-45d4-b037-ae1b80081367
+uuid: 457b1308-ebf0-4eb9-b977-f899a7182f51
 langcode: en
 status: true
 dependencies:
   module:
     - book
-    - node
   theme:
     - gt_ehs
 id: gt_ehs_book_navigation
 theme: gt_ehs
-region: sidebar_first
-weight: -10
+region: content
+weight: -41
 provider: null
 plugin: book_navigation
 settings:
   id: book_navigation
-  label: 'Book navigation'
+  label: ''
   label_display: '0'
   provider: book
   block_mode: 'book pages'
-visibility:
-  'entity_bundle:node':
-    id: 'entity_bundle:node'
-    negate: false
-    context_mapping:
-      node: '@node.node_route_context:node'
-    bundles:
-      book: book
+visibility: {  }
