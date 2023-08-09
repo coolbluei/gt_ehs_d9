@@ -1,0 +1,22 @@
+uuid: fdeda9b7-69f6-4d82-b7cd-1c3c83a15ca0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gt_ehs
+_core:
+  default_config_hash: oWtdwWiD9OCMNsv9JgRkz9GsOyQRsNTWnYjCuTcKP68
+id: gt_ehs_breadcrumbs
+theme: gt_ehs
+region: breadcrumbs
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

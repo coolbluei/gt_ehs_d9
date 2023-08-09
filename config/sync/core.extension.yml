@@ -105,4 +105,5 @@ theme:
   seven: 0
   stable: 0
   gt: 0
+  gt_ehs: 0
 profile: gt_profile

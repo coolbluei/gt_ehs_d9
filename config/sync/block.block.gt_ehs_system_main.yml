@@ -1,0 +1,22 @@
+uuid: 8ec39512-c6af-43fa-ab57-b7d363cbabbe
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gt_ehs
+_core:
+  default_config_hash: fEXmvhXSHFjanAL1m4kgAmvFRH43L4LYPcrt5DvpoPE
+id: gt_ehs_system_main
+theme: gt_ehs
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

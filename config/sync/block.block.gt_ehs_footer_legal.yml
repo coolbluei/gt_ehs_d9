@@ -1,0 +1,27 @@
+uuid: de86769e-f3a8-47df-b4a1-6ab121944d8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.gt-footer-legal
+  module:
+    - system
+  theme:
+    - gt_ehs
+_core:
+  default_config_hash: ThF3C8qkj0iVui86UxMyUXNjsoSsgznvjiK3QBOaxMI
+id: gt_ehs_footer_legal
+theme: gt_ehs
+region: footer_07
+weight: 0
+provider: null
+plugin: 'system_menu_block:gt-footer-legal'
+settings:
+  id: 'system_menu_block:gt-footer-legal'
+  label: 'GT official links: legal (required)'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

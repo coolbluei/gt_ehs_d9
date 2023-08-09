@@ -1,4 +1,4 @@
-uuid: d284964b-ffb8-4a09-9034-ba273fe3f216
+uuid: e32f4143-acfb-45d4-b037-ae1b80081367
 langcode: en
 status: true
 dependencies:
@@ -6,9 +6,9 @@ dependencies:
     - book
     - node
   theme:
-    - gt
-id: gt_book_navigation
-theme: gt
+    - gt_ehs
+id: gt_ehs_book_navigation
+theme: gt_ehs
 region: sidebar_first
 weight: -10
 provider: null

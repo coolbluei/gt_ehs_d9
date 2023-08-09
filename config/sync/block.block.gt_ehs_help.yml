@@ -1,0 +1,22 @@
+uuid: 96c8932e-8c8f-4060-a3c6-13a9f732e14b
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gt_ehs
+_core:
+  default_config_hash: xitR9051RTmCyUsLmvqhUMzWbR401S9jdpm66GBQESs
+id: gt_ehs_help
+theme: gt_ehs
+region: help
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
