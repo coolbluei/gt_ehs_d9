@@ -10,7 +10,7 @@ migration_tags:
   - 'Drupal 7'
   - Content
 migration_group: migrate_drupal_7
-label: 'Custom blocks'
+label: 'Content blocks'
 source:
   plugin: d7_block_custom
 process:

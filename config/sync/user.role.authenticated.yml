@@ -6,7 +6,6 @@ dependencies:
     - filter.format.minimal_html
     - node.type.minors_program
   module:
-    - file
     - filter
     - node
     - search
@@ -20,7 +19,6 @@ is_admin: false
 permissions:
   - 'access content'
   - 'create minors_program content'
-  - 'delete own files'
   - 'edit own minors_program content'
   - 'search content'
   - 'use text format minimal_html'

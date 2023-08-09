@@ -1,8 +1,8 @@
-uuid: 13ce0815-23f9-4dbe-8b4e-260f789233e1
+uuid: 767aa32c-9d6d-4da6-83f4-c0c09a09db12
 langcode: en
 status: true
 dependencies: {  }
-id: upgrade_d7_menu_links
+id: upgrade_d7_book
 class: Drupal\migrate\Plugin\Migration
 field_plugin_method: null
 cck_plugin_method: null
@@ -10,110 +10,34 @@ migration_tags:
   - 'Drupal 7'
   - Content
 migration_group: migrate_drupal_7
-label: 'Menu links'
+label: Books
 source:
-  plugin: menu_link
-  constants:
-    bundle: menu_link_content
+  plugin: book
 process:
-  skip_translation:
-    -
-      plugin: skip_on_empty
-      method: row
-      source: skip_translation
-  id:
+  nid:
     -
       plugin: get
-      source: mlid
-  langcode:
-    -
-      plugin: default_value
-      source: language
-      default_value: und
-  bundle:
+      source: nid
+  book/bid:
     -
       plugin: get
-      source: constants/bundle
-  title:
-    -
-      plugin: get
-      source: link_title
-  description:
-    -
-      plugin: get
-      source: description
-  menu_name:
-    -
-      plugin: migration_lookup
-      migration: upgrade_d7_menu
-      source: menu_name
-    -
-      plugin: skip_on_empty
-      method: row
-  link/uri:
-    -
-      plugin: link_uri
-      source: link_path
-  link/options:
-    -
-      plugin: get
-      source: options
-  route:
-    -
-      plugin: route
-      source:
-        - link_path
-        - options
-  route_name:
-    -
-      plugin: get
-      source: '@route/route_name'
-  route_parameters:
-    -
-      plugin: get
-      source: '@route/route_parameters'
-  url:
-    -
-      plugin: get
-      source: '@route/url'
-  options:
-    -
-      plugin: get
-      source: '@route/options'
-  external:
-    -
-      plugin: get
-      source: external
-  weight:
+      source: bid
+  book/weight:
     -
       plugin: get
       source: weight
-  expanded:
+  book/pid:
     -
-      plugin: get
-      source: expanded
-  enabled:
+      plugin: skip_on_empty
+      method: process
+      source: plid
     -
-      plugin: get
-      source: enabled
-  parent:
-    -
-      plugin: menu_link_parent
-      source:
-        - plid
-        - '@menu_name'
-        - parent_link_path
-  changed:
-    -
-      plugin: get
-      source: updated
+      plugin: migration_lookup
+      migration: upgrade_d7_book
 destination:
-  plugin: 'entity:menu_link_content'
-  no_stub: true
+  plugin: book
 migration_dependencies:
   required:
-    - upgrade_d7_menu
-  optional:
     - upgrade_d7_node_complete_aed
     - upgrade_d7_node_complete_aed_inspector
     - upgrade_d7_node_complete_article
@@ -144,4 +68,5 @@ migration_dependencies:
     - upgrade_d7_node_complete_super_block
     - upgrade_d7_node_complete_vertical_landing_page
     - upgrade_d7_node_complete_webform
-    - upgrade_d7_menu
+  optional:
+    - upgrade_d7_book

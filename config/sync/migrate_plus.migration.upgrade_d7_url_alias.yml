@@ -61,6 +61,7 @@ process:
         - upgrade_d7_node_complete_gt_ct_carousel
         - upgrade_d7_node_complete_gt_ct_carousel_slide
         - upgrade_d7_node_complete_horizontal_landing_page
+        - upgrade_d7_node_complete_mercury_events
         - upgrade_d7_node_complete_minors_program
         - upgrade_d7_node_complete_multipurpose_page
         - upgrade_d7_node_complete_node_gallery_gallery
@@ -109,6 +110,7 @@ migration_dependencies:
     - upgrade_d7_node_complete_gt_ct_carousel
     - upgrade_d7_node_complete_gt_ct_carousel_slide
     - upgrade_d7_node_complete_horizontal_landing_page
+    - upgrade_d7_node_complete_mercury_events
     - upgrade_d7_node_complete_minors_program
     - upgrade_d7_node_complete_multipurpose_page
     - upgrade_d7_node_complete_node_gallery_gallery
@@ -138,6 +140,7 @@ migration_dependencies:
     - upgrade_d7_node_complete_gt_ct_carousel
     - upgrade_d7_node_complete_gt_ct_carousel_slide
     - upgrade_d7_node_complete_horizontal_landing_page
+    - upgrade_d7_node_complete_mercury_events
     - upgrade_d7_node_complete_minors_program
     - upgrade_d7_node_complete_multipurpose_page
     - upgrade_d7_node_complete_node_gallery_gallery

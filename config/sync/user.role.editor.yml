@@ -17,9 +17,7 @@ dependencies:
     - node.type.vertical_landing_page
   module:
     - block
-    - block_content
     - contextual
-    - file
     - filter
     - node
     - search
@@ -32,12 +30,9 @@ weight: 3
 is_admin: null
 permissions:
   - 'access administration pages'
-  - 'access block library'
   - 'access content overview'
   - 'access contextual links'
   - 'access site in maintenance mode'
-  - 'administer block content'
-  - 'administer block types'
   - 'administer blocks'
   - 'create document content'
   - 'create document_linked content'
@@ -56,7 +51,6 @@ permissions:
   - 'delete any question content'
   - 'delete any super_block content'
   - 'delete any vertical_landing_page content'
-  - 'delete own files'
   - 'edit any book content'
   - 'edit any document content'
   - 'edit any document_linked content'
