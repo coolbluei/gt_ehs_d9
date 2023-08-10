@@ -39,3 +39,4 @@ regions:
 
 libraries:
   - 'gt_ehs/book'
+  - 'gt_ehs/homepage_block'

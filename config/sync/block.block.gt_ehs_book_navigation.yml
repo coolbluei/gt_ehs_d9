@@ -4,18 +4,26 @@ status: true
 dependencies:
   module:
     - book
+    - node
   theme:
     - gt_ehs
 id: gt_ehs_book_navigation
 theme: gt_ehs
-region: content
-weight: -41
+region: sidebar_first
+weight: -10
 provider: null
 plugin: book_navigation
 settings:
   id: book_navigation
-  label: ''
+  label: 'Book navigation'
   label_display: '0'
   provider: book
   block_mode: 'book pages'
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      book: book

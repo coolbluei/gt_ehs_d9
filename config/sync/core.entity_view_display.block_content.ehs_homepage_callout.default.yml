@@ -1,0 +1,52 @@
+uuid: 67f47378-e54f-43d3-b6d0-7aef2618415c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ehs_homepage_callout
+    - field.field.block_content.ehs_homepage_callout.field_heading_title
+    - field.field.block_content.ehs_homepage_callout.field_image
+    - field.field.block_content.ehs_homepage_callout.field_link
+  module:
+    - field_formatter_class
+    - image
+    - link
+id: block_content.ehs_homepage_callout.default
+targetEntityType: block_content
+bundle: ehs_homepage_callout
+mode: default
+content:
+  field_heading_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: 'heading-title h1'
+    weight: 0
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

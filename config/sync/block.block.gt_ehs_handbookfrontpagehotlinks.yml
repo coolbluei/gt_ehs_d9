@@ -1,0 +1,30 @@
+uuid: b9bd8535-3f46-4556-ac69-5c4bc9594a98
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:custom_links:5ca930dd-9cd9-4ba0-80e6-f45d5ef115d8'
+  module:
+    - block_content
+    - system
+  theme:
+    - gt_ehs
+id: gt_ehs_handbookfrontpagehotlinks
+theme: gt_ehs
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:5ca930dd-9cd9-4ba0-80e6-f45d5ef115d8'
+settings:
+  id: 'block_content:5ca930dd-9cd9-4ba0-80e6-f45d5ef115d8'
+  label: 'Handbook Front Page Hot Links'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /ehsa-user-handbook

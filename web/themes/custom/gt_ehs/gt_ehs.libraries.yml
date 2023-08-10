@@ -2,5 +2,11 @@ book:
   version: VERSION
   css:
     theme:
-      css/book.css:
+      templates/book/book.css:
+        weight: -10
+homepage_block:
+  version: VERSION
+  css:
+    theme:
+      templates/block/homepage/homepage.css:
         weight: -10

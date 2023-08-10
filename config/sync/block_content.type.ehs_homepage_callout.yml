@@ -1,0 +1,8 @@
+uuid: 0be3444c-dff4-48f7-b9d7-96d5557427dc
+langcode: en
+status: true
+dependencies: {  }
+id: ehs_homepage_callout
+label: 'EHS Homepage Callout'
+revision: 0
+description: 'EHS Hompage specific callout blocks; title, image, link.'
