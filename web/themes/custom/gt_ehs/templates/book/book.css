@@ -66,24 +66,24 @@ html.js #edit-book-pick-book {
   float: left;
 }
 
-#block-gt-ehs-book-navigation ul.top-book-menu {
+ul.top-book-menu {
   border-top: 4px solid #b3a369;
   margin: 0 0 20px;
   padding: 0;
 }
 
-#block-gt-ehs-book-navigation ul.top-book-menu ul {
+ul.top-book-menu ul {
   margin: 0;
   padding: 0;
 }
-#block-gt-ehs-book-navigation ul.top-book-menu li {
+ul.top-book-menu li {
   border: none;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-#block-gt-ehs-book-navigation ul.top-book-menu li a {
+ul.top-book-menu li a {
   display: block;
   color: #023d7b;
   font-weight: 400;
@@ -92,13 +92,13 @@ html.js #edit-book-pick-book {
   position: relative;
   text-decoration: none;
 }
-#block-gt-ehs-book-navigation ul.top-book-menu > li > a {
+ul.top-book-menu > li > a {
   font-weight: 700;
   border-bottom: 1px solid #eeeeee;
 }
 
-#block-gt-ehs-book-navigation ul.top-book-menu > li > a:before {
-  color: #EEEEEE;
+ul.top-book-menu > li > a:before {
+  color: #eeeeee;
   content: '\f054';
   display: inline-block;
   font-family: "FontAwesome";
@@ -110,6 +110,6 @@ html.js #edit-book-pick-book {
   text-decoration: none;
   top: 6px;
 }
-#block-gt-ehs-book-navigation ul.top-book-menu li a:hover {
+ul.top-book-menu li a:hover {
   background-color: #eeeeee;
 }
