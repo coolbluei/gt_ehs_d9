@@ -38,5 +38,9 @@ regions:
   other: 'Other / Placeholder region'
 
 libraries:
+  - 'gt_ehs/ehs_style'
+  - 'gt_ehs/parent'
+  - 'gt_ehs/person'
+  - 'gt_ehs/question'
   - 'gt_ehs/book'
   - 'gt_ehs/homepage_block'

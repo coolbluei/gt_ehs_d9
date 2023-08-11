@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - block_content.type.ehs_homepage_callout
+    - field.field.block_content.ehs_homepage_callout.field_body_copy
     - field.field.block_content.ehs_homepage_callout.field_heading_title
     - field.field.block_content.ehs_homepage_callout.field_image
     - field.field.block_content.ehs_homepage_callout.field_link
@@ -11,11 +12,20 @@ dependencies:
   module:
     - image
     - link
+    - text
 id: block_content.ehs_homepage_callout.default
 targetEntityType: block_content
 bundle: ehs_homepage_callout
 mode: default
 content:
+  field_body_copy:
+    type: text_textarea
+    weight: 26
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
   field_heading_title:
     type: string_textfield
     weight: 1

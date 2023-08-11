@@ -1,0 +1,1 @@
+ul.inline-view-header-menu {  list-style: none;  display: flex;  flex-wrap: wrap;  justify-content: space-between;  border-top: 2px solid var(--gt-md-gold);  border-bottom: 2px solid var(--gt-md-gold);  margin: 1em 0;  padding: 1em 0;}ul.inline-view-header-menu li {  padding: 3px 8px;}ul.inline-view-header-menu a:visited {  background-color: #faa;}

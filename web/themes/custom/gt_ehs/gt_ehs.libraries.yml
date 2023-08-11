@@ -1,3 +1,27 @@
+parent:
+  version: VERSION
+  css:
+    theme:
+      css/parent.css:
+        weight: -10
+ehs_style:
+  version: VERSION
+  css:
+    theme:
+      css/ehs_style.css:
+        weight: -10
+person:
+  version: VERSION
+  css:
+    theme:
+      templates/node/person.css:
+        weight: -10
+question:
+  version: VERSION
+  css:
+    theme:
+      templates/node/question.css:
+        weight: -10
 book:
   version: VERSION
   css:
