@@ -3,6 +3,6 @@ langcode: en
 status: true
 dependencies: {  }
 id: ehs_homepage_callout
-label: 'EHS Homepage Callout'
+label: 'EHS Callout'
 revision: 0
 description: 'EHS Hompage specific callout blocks; title, image, link.'
